@@ -10,9 +10,9 @@ GIT
 
 git status
 
-git add *
+git add * 
 
-git commit
+git commit -m "My message"
 
 git push
 
