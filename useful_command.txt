@@ -1,0 +1,22 @@
+REPERTOIRE
+
+dir
+
+cd my_rep
+
+cd ..
+
+GIT
+
+git status
+
+git add *
+
+git commit
+
+git push
+
+
+BROWSER SYNC
+
+browser-sync start --server --directory --files "*"
