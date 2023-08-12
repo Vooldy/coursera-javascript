@@ -1,0 +1,40 @@
+Header 
+{
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+Header li 
+{
+    list-style: none;
+}
+
+Header li a 
+{
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+a:hover,a:active 
+{
+    color: grey;
+}
+
+article 
+{
+    font-size: 12px;
+}
+
+.bold 
+{
+    font-weight: bold;
+}
