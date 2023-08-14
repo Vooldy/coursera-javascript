@@ -1,0 +1,124 @@
+body
+{
+    background-color:rgb(53, 13, 94);
+    font-family: 'Teko', sans-serif;
+    color: ivory;
+}
+
+/* NAVBAR */
+
+.navbar
+{
+    background-color:rgb(206, 145, 89);
+}
+
+.navbar-brand a
+{
+    text-decoration: none;
+}
+
+#nav-container
+{
+    margin-left: 20px;
+}
+
+#logo-img
+{
+    background: url('../image/matuidi.png') no-repeat;
+    background-size: 200px;
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+h1
+{
+    color: rgb(53, 13, 94);
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(139, 95, 53);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+h2
+{
+    color: rgb(53, 13, 94);
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(139, 95, 53);
+    margin-top: -3px;
+    text-align: right;
+}
+
+.navbar-nav a
+{
+    color: rgb(53, 13, 94);
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(139, 95, 53);
+    padding-top: 0px;
+}
+
+@media (max-width: 575px) 
+{
+    /* NAVBAR, LOGO HIDDEN THEN H1 and H2 ALIGN*/
+    
+    .navbar-header
+    {
+        width: 100%;
+    }
+
+    .navbar-brand
+    {
+        width: 100%;
+    }
+
+    h1, h2
+    {
+        text-align: center;
+    }
+
+    .navbar-nav a
+    {
+        padding: 0px;
+    }
+
+    #home
+    {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1200px)
+{
+    /* RESIZE NAVBAR SIZE FONT AND LOWER*/
+
+    .navbar-nav
+    {
+        margin-top: 10px;
+        position :absolute;
+        top: 100px;
+        right: 10px;
+    }
+
+    .navbar-nav a
+    {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1201px)
+{
+    .navbar-nav
+    {
+        margin-top: 10px;
+        position :absolute;
+        top: 0px;
+        right: 20px;
+    }
+}
